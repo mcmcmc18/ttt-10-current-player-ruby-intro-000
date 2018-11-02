@@ -1,5 +1,5 @@
 board = [" "," "," ", " "," ", " "," ", " "," "]
-def turn_count(board)
+def turn_count(board, current_player)
   counter = 0 
   board.each do |turns|
     puts #{X} 
